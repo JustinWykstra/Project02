@@ -5,11 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project_1</title>
 </head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
 <body>
-    <header>
-
+    <header >
+        <h1 id="theme">Fish Eye Underwater Observatory and Marine Park</h1>
+        <nav>
+          <ul>
+            <li><a href="https://travel.state.gov/content/travel/en/passports/how-apply/where-to-apply.html">Apply for a Passport Here</a></li> 
+            <li><a href="/Activity-06/videos/PXLDubai.mp4">Video of Burj Kahlifa</a></li> 
+            <li><a href="#footer">Navigate to Author info</a></li>
+          </ul>
+        </nav>
     </header>
     <section>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <h2 class="largefont">Travel Itinerary</h2>
+        <h4 class="largefont">I made a list of all the travel destinations visited on a trip with my wife this spring!</h4>
+        <!-- class reference will allow me to use more than one subject for reference in the style section of the head of this html document, which makes it differnet from an id reference because an id will limit the developer to use one subject for a reference. -->
+        <nav>
+            <ul>
+                <li>Honolulu</li>
+                <li>Osaka</li>
+                <li>Dubai</li>
+                <li>Istanbul</li>
+                <li>Rome<br></li> 
+                <li>Pompeii</li>
+                <li>Amalfi Coast</li>
+                <li>Vatican City</li>
+                <li>Nice</li>
+                <li>Monaco</li>
+                <li>Montpellier</li>
+                <li>Paris</li>
+                <li>Versailles</li>
+                <li>Lisbon</li>
+                <li>Nazare</li>
+                <li>Alhandra</li>
+                <li>Azores</li>
+                <li>Long Island</li>
+                <li>New York City</li>
+                <li>SLC</li>
+                <li>Honolulu</li>
+            </ul>
+        </nav>
         <p>
             Develop three separate pages dedicated to each of the three places you want to showcase.
             Each page should contain:
@@ -20,8 +60,13 @@
             All images should be uniformly sized, with widths not exceeding 650 pixels and each being less than 100kb in total size.
         </p>
     </section>
-    <footer>
-
+    <div>
+        <img class="media" src="./images/60days.jpg" alt="A world map showing every destination traveled by the author in order to fly around the world in 60 days. Also contains postcards with photos in several destinations along images of a surfer, the collusium, and a camel.">
+        <video class="media" autoplay muted loop show all controls src="./videos/PXLDubai.mp4" alt="A video of the Burj Kalifa on the first night of Ramadan."></video>
+        <!-- google chrome browser will only play video in autoplay if it is muted, so I gave it a feature to show all controls so that users would be able to have audio controls. --> 
+    </div>
+    <footer id="footer">
+        <p>2024 Justin Wyk. &copy;</p>
     </footer>
 </body>
 </html>
