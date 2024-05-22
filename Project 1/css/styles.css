@@ -33,6 +33,9 @@ section {
     font-weight: 400; 
     font-style: normal}
 /* Applied Google Font "Shadows into light" for Bonus Points */
-
+.tabs {
+    margin: 50px
+    display:flex
+}
 
 
