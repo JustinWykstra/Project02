@@ -77,4 +77,145 @@ section {
     display: intitial;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
 
+/* Media Queries */
+@media (min-width: 768px) {
+    .grid-container {
+        "header"
+        "nav main"
+        "footer footer"
+    }
+}
+
+@media (min-width: 1024px) {
+    .gallery img {
+        width: calc(33.333%-10px);
+    }
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul li {
+    border: none;
+}
+
+.nav ul li a {
+    border-right: 1px solid #444;
+    border-bottom: none;
+}
+
+.nav ul li a:last-child {
+    border-right:none;
+}
+
+.gallery img {
+    width: calc(50%-10px);
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      font-size: 24px;
+    }
+  }
+  
+  h2 {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: brown;
+  }
+  
+  header {
+    background-color: Gold;
+    color: rgb(32, 221, 158);
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .nav {
+    background-color: #2e1a1a;
+    width: 100%;
+    margin: 0;
+    padding: 0 5px;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav li {
+    display: inline;
+    border-right: 1px solid grey;
+  }
+  
+  nav li:last-child {
+    border-right: none;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+    padding: 14px 16px;
+  }
+  
+  nav a:hover {
+    background-color: #ffe13a;
+    color: #2e1a1a;
+  }
+  
+  main {
+    background-color: #13a5a5;
+    margin: 50px 100;
+    padding: 50px;
+  }
+  
+  #dive {
+    border: 5px solid brown;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px grey;
+    width: 50%;
+  }
+  
+  section {
+    margin top: 30px;
+  }
+  
+  footer {
+    background-color: #2e1a1a;
+    opacity: 0.9;
+    padding: 30px 50px;
+    color: gold;
+    text-align: center;
+  }
