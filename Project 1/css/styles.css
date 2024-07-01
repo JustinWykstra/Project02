@@ -30,6 +30,7 @@ header {
     text-align: center; 
     font-weight: bolder; 
     font-family: papyrus;
+    font-size: smaller;
 }
 
 .largefont {
@@ -41,7 +42,7 @@ header {
 } 
 
 .tabs {
-    margin: 50px
+    margin: 50px;
     display: flex;
     flex-wrap: wrap;
     max-width: 400px;
@@ -83,12 +84,15 @@ header {
 
 /* Media Queries */
 @media (min-width: 768px) {
-    .grid-container {
-        "header"
-        "nav main"
-        "footer footer"
-    }
+  .grid-container {
+      display: grid;
+      grid-template-areas:
+          "header"
+          "nav main"
+          "footer footer";
+  }
 }
+
 
 @media (min-width: 1024px) {
     .gallery img {
@@ -459,7 +463,7 @@ body {
     text-decoration: none;
     color: #09274b;
     font-weight: bold;
-    padding: 14px 16px;
+    padding: 16px 16px;
   }
   
   nav a:hover {
