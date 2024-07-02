@@ -226,55 +226,6 @@ header {
     align-items: center;
 }
 
-.contact-intro, .contact-form-section, .contact-details {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.contact-intro h1, .contact-form-section h2, .contact-details h2 {
-    font-size: 36px;
-    color: white;
-}
-
-.contact-intro p, .contact-details p {
-    font-size: 18px;
-    color: white;
-}
-
-.contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.contact-form input, .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact-form button {
-    background-color: white;
-    color: #083053;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #a2ed86;
-}
-
 .map iframe {
     width: 100%;
     max-width: 600px;
