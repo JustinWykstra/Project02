@@ -93,6 +93,10 @@ width: 100%;
   .gallery img {
       width: calc(33.333%-10px);
   }
+
+  .main {
+    padding-left: 350px;
+  }
 }
 
 .nav ul li a:hover {
