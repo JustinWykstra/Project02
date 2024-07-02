@@ -49,7 +49,6 @@ width: 100%;
 }
 .tabs__label {
   padding: 10px 16px;
-  cursor: pointer;
 }
 .tabs__radio {
   display: none;
