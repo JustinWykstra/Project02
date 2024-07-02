@@ -52,17 +52,6 @@ header {
     cursor: pointer;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-areas: 
-        "header"
-        "nav"
-        "main"
-        "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-}
-
 /* Media Queries */
 @media (min-width: 768px) {
   .grid-container {
